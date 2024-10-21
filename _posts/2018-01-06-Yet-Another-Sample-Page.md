@@ -1,5 +1,6 @@
 ---
-title: Yet Another Sample Page
+title: New York Flankees
+published: true
 published: true
 ---
 
