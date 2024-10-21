@@ -1,5 +1,5 @@
 ---
-title: Newyork Flankees - Try Hackme
+title: New York Flankees
 published: true
 ---
 
