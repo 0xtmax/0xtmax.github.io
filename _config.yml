@@ -1,9 +1,9 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: 0xtmax Hacking Hub
+description: "CTF Writeups, Tryhackme, Hackthebox and Hacking Tools Cheatsheets"
 author:
   name: "SomeHacker"
   email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  url: "https://0xtmax.github.io/"
 
 baseurl: /
 
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
-year : "2020"
+owner : "0xtmax"
+year : "2024"
