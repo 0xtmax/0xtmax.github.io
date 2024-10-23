@@ -1,3 +1,25 @@
-<a href="{{ "/archive" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">Archive</h2></a>
-<a href="{{ "/about" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">About</h2></a>
-<a href="{{ "/atom.xml" | prepend: site.baseurl | replace: '//', '/' }}"><h2 class="header-link">RSS</h2></a>
+{% if site.github_username != null %}
+<a href="https://github.com/{{site.github_username}}" target="_blank">
+  <i class="fa fa-github fa-3x"></i>
+</a>
+{% endif %}
+{% if site.email != null %}
+<a href="mailto:{{site.email}}">
+  <i class="fa fa-envelope fa-3x"></i>
+</a>
+{% endif %}
+{% if site.facebook_username != null %}
+<a href="https://www.facebook.com/{{site.facebook_username}}" target="_blank">
+  <i class="fa fa-facebook fa-3x"></i>
+</a>
+{% endif %}
+{% if site.twitter_username != null %}
+<a href="https://twitter.com/{{site.twitter_username}}" target="_blank">
+  <i class="fa fa-twitter fa-3x"></i>
+</a>
+{% endif %}
+{% if site.linkedin_id != null %}
+<a href="https://www.linkedin.com/in/{{site.linkedin_id}}" target="_blank">
+  <i class="fa fa-linkedin fa-3x"></i>
+</a>
+{% endif %}

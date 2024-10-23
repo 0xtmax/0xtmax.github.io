@@ -1,9 +1,8 @@
 ---
 layout: default
+blog: true
 ---
-
-<article>
-  <h2>{{ page.title }}</h2>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+<h4 class="post-title"> {{ page.date }} </h4>
+<article class="blog-post">
   {{ content }}
 </article>
