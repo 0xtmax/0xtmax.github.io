@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+>  
+This page is intended for educational and ethical purposes only. All information, tools, and techniques shared are meant to promote awareness, enhance cybersecurity defenses, and foster responsible practices. Unauthorized access to systems or data is illegal and unethical. Always seek proper permission before conducting any security-related activities. Use this knowledge responsibly.
+{: .prompt-danger }
