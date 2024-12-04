@@ -97,8 +97,8 @@ Add the following command to get the swap whenever there is a reboot.
 
 ![](/assets/linode/media/image13.png)
 
--   **Step 02 --- Install KASM\
-    **Get the Kasm package from S3 AWS bucket with Wget command.
+   **Step 02 --- Install KASM**
+     Get the Kasm package from S3 AWS bucket with Wget command.
 
 ``` wget https://kasm-static-content.s3.amazonaws.com/kasm_release_1.14.0.3a7abb.tar.gz\ ```
 To unzip the package - ``` tar -xf kasm_release_1.14.0.3a7abb.tar.gz\ ```
@@ -109,8 +109,9 @@ Navigate inside the \"Kasm_release folder and run ``` sudo bash install.sh ```
 After the installation you will the success message and the user
 credentials for the kasm database. Save it in the secure location.
 
-**Step 03 --- Test the Kasm UI from out Linode's Public IP.\
-**Kasm is working on our Linode's server.
+**Step 03 --- Test the Kasm UI from out Linode's Public IP.**
+
+Kasm is working on our Linode's server.
 
 ![](/assets/linode/media/image15.png)
 
@@ -118,8 +119,10 @@ Now login with the Kasm Administrator credential that you got from the installat
 
 ![](/assets/linode/media/image16.png)
 
-**Step 04 --- Kasm Workplaces --- Navigate to Workplaces in the top of
-the dashboard. And can see the pre build containers are there.**
+**Step 04 --- Kasm Workplaces ---** 
+
+Navigate to Workplaces in the top of
+the dashboard. And can see the pre build containers are there.
 
 ![](/assets/linode/media/image17.png)
 
