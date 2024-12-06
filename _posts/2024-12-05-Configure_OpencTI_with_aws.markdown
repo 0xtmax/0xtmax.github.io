@@ -274,7 +274,7 @@ Output should be like this when we start the Docker instance.
 
 ![](/assets/opencti/media/image18.png)
 
-Access the OpenCTI Web application by Navigating to the <http://public_ip:8080> and login with the given credentials in .env file.
+Access the OpenCTI Web application by Navigating to the <https://public_ip:8080> and login with the given credentials in .env file.
     
 
 ![](/assets/opencti/media/image19.png)
