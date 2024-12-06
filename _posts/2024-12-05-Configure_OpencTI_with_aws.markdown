@@ -431,35 +431,35 @@ Some of the famous RSS feeds site can be found below.
 
 | **Name**                         | **URL**                                                              |
 |----------------------------------|----------------------------------------------------------------------|
-| Trend Micro Research, News,      | [http://feeds.trendmicro.com/Anti-MalwareBlog/](http://feeds.trendmicro.com/Anti-MalwareBlog/) |
+| Trend Micro Research, News,      | [https://feeds.trendmicro.com/Anti-MalwareBlog/](https://feeds.trendmicro.com/Anti-MalwareBlog/) |
 | Perspectives                     |                                                                      |
-| Trend Micro Research, News and   | [http://feeds.trendmicro.com/TrendMicroSimplySecurity](http://feeds.trendmicro.com/TrendMicroSimplySecurity) |
+| Trend Micro Research, News and   | [https://feeds.trendmicro.com/TrendMicroSimplySecurity](https://feeds.trendmicro.com/TrendMicroSimplySecurity) |
 | Perspectives                     |                                                                      |
-| The Register -- Security         | [http://www.theregister.co.uk/security/headlines.atom](http://www.theregister.co.uk/security/headlines.atom) |
-| The Hacker News                  | [http://thehackernews.com/feeds/posts/default](http://thehackernews.com/feeds/posts/default) |
+| The Register -- Security         | [https://www.theregister.co.uk/security/headlines.atom](https://www.theregister.co.uk/security/headlines.atom) |
+| The Hacker News                  | [https://thehackernews.com/feeds/posts/default](https://thehackernews.com/feeds/posts/default) |
 | The DFIR Report                  | [https://thedfirreport.com/feed/](https://thedfirreport.com/feed/)   |
-| SecurityWeek                     | [http://feeds.feedburner.com/Securityweek](http://feeds.feedburner.com/Securityweek) |
-| Security Affairs                 | [http://securityaffairs.co/wordpress/feed](http://securityaffairs.co/wordpress/feed) |
+| SecurityWeek                     | [https://feeds.feedburner.com/Securityweek](https://feeds.feedburner.com/Securityweek) |
+| Security Affairs                 | [https://securityaffairs.co/wordpress/feed](https://securityaffairs.co/wordpress/feed) |
 | Securelist                       | [https://securelist.com/feed/](https://securelist.com/feed/)         |
 | SANS Blog                        | [https://blogs.sans.org/computer-forensics/feed/](https://blogs.sans.org/computer-forensics/feed/) |
-| Palo Alto Networks Blog          | [http://researchcenter.paloaltonetworks.com/feed/](http://researchcenter.paloaltonetworks.com/feed/) |
-| Packet Storm Security            | [http://packetstormsecurity.org/headlines.xml](http://packetstormsecurity.org/headlines.xml) |
-| Microsoft Security Response      | [http://blogs.technet.com/msrc/rss.xml](http://blogs.technet.com/msrc/rss.xml) |
+| Palo Alto Networks Blog          | [https://researchcenter.paloaltonetworks.com/feed/](https://researchcenter.paloaltonetworks.com/feed/) |
+| Packet Storm Security            | [https://packetstormsecurity.org/headlines.xml](https://packetstormsecurity.org/headlines.xml) |
+| Microsoft Security Response      | [https://blogs.technet.com/msrc/rss.xml](https://blogs.technet.com/msrc/rss.xml) |
 | Center                           |                                                                      |
-| Microsoft Security Blog          | [http://blogs.technet.com/mmpc/rss.xml](http://blogs.technet.com/mmpc/rss.xml) |
-| Malwarebytes Labs                | [http://blog.malwarebytes.org/feed/](http://blog.malwarebytes.org/feed/) |
-| Lenny Zeltser                    | [http://blog.zeltser.com/rss](http://blog.zeltser.com/rss)           |
-| Krebs on Security                | [http://krebsonsecurity.com/feed/](http://krebsonsecurity.com/feed/) |
-| Hexacorn                         | [http://www.hexacorn.com/blog/feed/](http://www.hexacorn.com/blog/feed/) |
-| Hackread -- Latest               | [http://feeds.feedburner.com/hackread](http://feeds.feedburner.com/hackread) |
+| Microsoft Security Blog          | [https://blogs.technet.com/mmpc/rss.xml](https://blogs.technet.com/mmpc/rss.xml) |
+| Malwarebytes Labs                | [https://blog.malwarebytes.org/feed/](https://blog.malwarebytes.org/feed/) |
+| Lenny Zeltser                    | [https://blog.zeltser.com/rss](https://blog.zeltser.com/rss)           |
+| Krebs on Security                | [https://krebsonsecurity.com/feed/](https://krebsonsecurity.com/feed/) |
+| Hexacorn                         | [https://www.hexacorn.com/blog/feed/](https://www.hexacorn.com/blog/feed/) |
+| Hackread -- Latest               | [https://feeds.feedburner.com/hackread](https://feeds.feedburner.com/hackread) |
 | Cybersecurity News, Press        |                                                                      |
 | Releases & Technology Today      |                                                                      |
-| Darknet -- Hacking Tools,        | [http://feeds.feedburner.com/darknethackers](http://feeds.feedburner.com/darknethackers) |
+| Darknet -- Hacking Tools,        | [http://feeds.feedburner.com/darknethackers](https://feeds.feedburner.com/darknethackers) |
 | Hacker News & Cyber Security     |                                                                      |
-| Dark Reading                     | [http://www.darkreading.com/rss/all.xml](http://www.darkreading.com/rss/all.xml) |
-| Cisco Talos Blog                 | [http://vrt-sourcefire.blogspot.com/feeds/posts/default](http://vrt-sourcefire.blogspot.com/feeds/posts/default) |
+| Dark Reading                     | [http://www.darkreading.com/rss/all.xml](https://www.darkreading.com/rss/all.xml) |
+| Cisco Talos Blog                 | [http://vrt-sourcefire.blogspot.com/feeds/posts/default](https://vrt-sourcefire.blogspot.com/feeds/posts/default) |
 | CISA Cybersecurity Advisories    | [https://www.us-cert.gov/ncas/alerts.xml](https://www.us-cert.gov/ncas/alerts.xml) |
-| Bleeping Computer                | [http://www.bleepingcomputer.com/feed/](http://www.bleepingcomputer.com/feed/) |
+| Bleeping Computer                | [http://www.bleepingcomputer.com/feed/](https://www.bleepingcomputer.com/feed/) |
 
 
 ```Happy Hacking :) ```
