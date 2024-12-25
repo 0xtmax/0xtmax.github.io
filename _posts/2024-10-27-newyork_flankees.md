@@ -3,7 +3,6 @@ title: "NewYork Flankees - Try Hack Me Walkthrough"
 date: 2024-10-27 00:00:00 +0800
 categories: [TryHackMe]
 tags: [RedTeam,Linux,Cryptography,Docker,Linux privilege Escalation]
-comments: true
 ---
 
 ![Desktop View](/assets/nyfl/banner.png){: width="900" height="500" }
