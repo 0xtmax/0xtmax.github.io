@@ -666,3 +666,26 @@ Now let’s connect this Windows 10 machine to your Active Directory domain.
         
 
 ![](/assets/socimg/image%2064.png)
+
+**Alright!!! Lets Wrapping up Part 1**
+
+Getting the foundation right?? So thats the solid wrap for the part 1 of our home soc lab build!
+So far, we've:
+
+    - Installed and Configured pfSense with proper network segmentation (LAN,DMZ,SIEM,WAN).
+    - Set up Windows Server 2022 as a Domain Controller with soclab.local.
+    - Brought Windows 10 into the domain.
+    - Created a domain user for our internal client system.
+    - Installed Kali Linux for red team Simulation.
+    - Built the foundation of a realistic soc environment step by step.
+
+    The lab is alive now and ready for action.
+
+
+**Up Next: PART2-VPN Tunneling,Firewall Rules,Monitoring and Attacks**
+
+In Part 2, We will take it to the next level:
+  - Configure OpenVPN on pfSense with Active Directory authentication so domain users can connect securely.
+  - Configure pfSense Firewall rules for all the interface we created.
+  - Deploy Metasploitable 2 in the DMZ for the attack Simulation
+  - Install and Configure Splunk SIEM to start collecting and Visualizing logs from across the environment.
