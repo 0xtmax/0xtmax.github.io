@@ -669,7 +669,7 @@ Now let’s connect this Windows 10 machine to your Active Directory domain.
 
 **Alright!!! Lets Wrapping up Part 1**
 
-Getting the foundation right?? So thats the solid wrap for the part 1 of our home soc lab build!
+Getting the foundation right?? So thats the solid wrap for the part 1 of our home soc lab build.
 So far, we've:
 
     - Installed and Configured pfSense with proper network segmentation (LAN,DMZ,SIEM,WAN).
@@ -679,7 +679,7 @@ So far, we've:
     - Installed Kali Linux for red team Simulation.
     - Built the foundation of a realistic soc environment step by step.
 
-    The lab is alive now and ready for action.
+ The lab is alive now and ready for action.
 
 
 **Up Next: PART2-VPN Tunneling,Firewall Rules,Monitoring and Attacks**
@@ -689,3 +689,10 @@ In Part 2, We will take it to the next level:
   - Configure pfSense Firewall rules for all the interface we created.
   - Deploy Metasploitable 2 in the DMZ for the attack Simulation
   - Install and Configure Splunk SIEM to start collecting and Visualizing logs from across the environment.
+  - Setup Sysmon on Windows machines to generate detailed event logs for process creation,network connections and more.
+
+We’ll now begin to bring the blue team online — collecting, analyzing, and responding to real attack footprints in a secure and segmented lab environment.
+
+Get ready for the action — Part 2 is where the hunt begins. 
+
+``` Happy Hacking  ```
