@@ -51,15 +51,15 @@ This separate laptop runs:
 
 ## Tools & Tech Stacks
 
-- VMware Workstation - https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
-- pfsense Firewall ISO - https://www.pfsense.org/download/
-- Windows Server 2022 ISO - https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
-- Windows 10 ISO -  https://www.microsoft.com/en-us/software-download/windows10
-- Metasploitable 2 VM - https://docs.rapid7.com/metasploit/metasploitable-2/
-- Splunk - download -  https://www.splunk.com/en_us/download.html
-- Ubuntu Server with Vulnerable application installed - https://ubuntu.com/download/server
-- Download Kali Linux - https://www.kali.org/get-kali/#kali-platforms
-- Metasploitable 2 - https://docs.rapid7.com/metasploit/metasploitable-2/
+- VMware Workstation - [https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
+- pfsense Firewall ISO - [https://www.pfsense.org/download/)](https://www.pfsense.org/download/)
+- Windows Server 2022 ISO -[https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
+- Windows 10 ISO -  [https://www.microsoft.com/en-us/software-download/windows10](https://www.microsoft.com/en-us/software-download/windows10)
+- Metasploitable 2 VM -[https://docs.rapid7.com/metasploit/metasploitable-2/](https://docs.rapid7.com/metasploit/metasploitable-2/)
+- Splunk - download -  [https://www.splunk.com/en_us/download.html](https://www.splunk.com/en_us/download.html)
+- Ubuntu Server with Vulnerable application installed - [https://ubuntu.com/download/server](https://ubuntu.com/download/server)
+- Download Kali Linux - [https://www.kali.org/get-kali/#kali-platforms](https://www.kali.org/get-kali/#kali-platforms)
+- Metasploitable 2 -[https://docs.rapid7.com/metasploit/metasploitable-2/](https://docs.rapid7.com/metasploit/metasploitable-2/)
 
 ## **Network Segmentation with VMware**
 
@@ -670,7 +670,8 @@ Now let’s connect this Windows 10 machine to your Active Directory domain.
 **Alright!!! Lets Wrapping up Part 1**
 
 Getting the foundation right?? So thats the solid wrap for the part 1 of our home soc lab build.
-So far, we've:
+
+So far, we've;
 
     - Installed and Configured pfSense with proper network segmentation (LAN,DMZ,SIEM,WAN).
     - Set up Windows Server 2022 as a Domain Controller with soclab.local.
