@@ -1,0 +1,295 @@
+/* Tools Dashboard Styles */
+:root {
+  --dark-bg: #0a0e17;
+  --darker-bg: #060a12;
+  --highlight: #1e90ff;
+  --text-color: #e0e0e0;
+  --secondary-text: #a0a0a0;
+  --border-color: #2a3142;
+  --card-bg: #111827;
+  --hover-bg: #1a2235;
+  --tag-bg: #2c3e50;
+}
+
+.tools-container {
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.tools-header {
+  background-color: var(--darker-bg);
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tools-header h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.tools-header p {
+  margin: 8px 0 0;
+  color: var(--secondary-text);
+  font-size: 14px;
+}
+
+.search-bar {
+  margin-top: 15px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tools-nav {
+  display: flex;
+  overflow-x: auto;
+  background-color: var(--darker-bg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tools-nav button {
+  padding: 12px 20px;
+  background: none;
+  border: none;
+  color: var(--secondary-text);
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.tools-nav button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.tools-nav button.active {
+  color: white;
+  border-bottom: 2px solid var(--highlight);
+}
+
+.tools-content {
+  display: flex;
+  height: 800px;
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.tools-list {
+  width: 450px;
+  overflow-y: auto;
+  border-right: 1px solid var(--border-color);
+  background-color: var(--darker-bg);
+}
+
+.tool-item {
+  padding: 15px;
+  border-bottom: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tool-item:hover {
+  background-color: var(--hover-bg);
+}
+
+.tool-item.active {
+  background-color: var(--hover-bg);
+  border-left: 3px solid var(--highlight);
+}
+
+.tool-item h3 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.tool-item p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--secondary-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.tool-category-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 3px 8px;
+  background-color: var(--tag-bg);
+  color: white;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.tool-details {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: var(--card-bg);
+}
+
+.tool-header {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tool-header h2 {
+  margin: 0 0 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.tool-category {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: var(--tag-bg);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.tool-description {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.tool-commands {
+  margin: 20px 0;
+  background-color: var(--darker-bg);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tool-commands h3 {
+  padding: 12px 15px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.commands-list {
+  padding: 10px;
+}
+
+.command-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.command-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.command-code {
+  background-color: #000;
+  border-radius: 4px;
+  padding: 10px 15px;
+  position: relative;
+  margin-bottom: 8px;
+  overflow-x: auto;
+}
+
+.command-code code {
+  color: #00ff00;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.command-desc {
+  font-size: 13px;
+  color: var(--secondary-text);
+  margin: 5px 0 0;
+}
+
+.copy-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.copy-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.tool-links {
+  margin: 20px 0;
+}
+
+.tool-links a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  background-color: var(--highlight);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.tool-links a:hover {
+  background-color: #0078e7;
+}
+
+.no-tools {
+  padding: 20px;
+  text-align: center;
+  color: var(--secondary-text);
+}
+
+@media (max-width: 768px) {
+  .tools-content {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .tools-list {
+    width: 100%;
+    max-height: 300px;
+  }
+}

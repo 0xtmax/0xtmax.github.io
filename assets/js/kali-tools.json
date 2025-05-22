@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "name": "Information Gathering",
+      "tools": [
+        {
+          "name": "Nmap",
+          "description": "Powerful network discovery and security auditing tool",
+          "category": "Information Gathering",
+          "usage": "nmap [target]",
+          "options": [
+            "-sV: Probe open ports to determine service/version info",
+            "-p-: Scan all ports",
+            "-A: Enable OS detection, version scanning, script scanning, and traceroute"
+          ],
+          "docs": "https://nmap.org/book/man.html"
+        },
+        {
+          "name": "Maltego",
+          "description": "Open-source intelligence and forensics tool",
+          "category": "Information Gathering",
+          "usage": "maltego",
+          "options": [
+            "Graphical link analysis tool",
+            "Discover relationships between data points"
+          ],
+          "docs": "https://www.maltego.com/learn/tutorials/"
+        }
+      ]
+    },
+    {
+      "name": "Vulnerability Analysis",
+      "tools": [
+        {
+          "name": "Nessus",
+          "description": "Comprehensive vulnerability scanner",
+          "category": "Vulnerability Analysis",
+          "usage": "nessus-cli",
+          "options": [
+            "Scan networks for vulnerabilities",
+            "Generate detailed security reports"
+          ],
+          "docs": "https://docs.tenable.com/nessus/Content/GetStarted.htm"
+        },
+        {
+          "name": "OpenVAS",
+          "description": "Open Vulnerability Assessment System",
+          "category": "Vulnerability Analysis",
+          "usage": "openvas-start",
+          "options": [
+            "Comprehensive vulnerability scanning",
+            "Detailed security assessment"
+          ],
+          "docs": "https://www.openvas.org/guide.html"
+        }
+      ]
+    },
+    {
+      "name": "Web Application Analysis",
+      "tools": [
+        {
+          "name": "Burp Suite",
+          "description": "Web application security testing platform",
+          "category": "Web Application Analysis",
+          "usage": "burpsuite",
+          "options": [
+            "Proxy web traffic",
+            "Perform security tests",
+            "Intercept and modify requests"
+          ],
+          "docs": "https://portswigger.net/burp/documentation"
+        },
+        {
+          "name": "OWASP ZAP",
+          "description": "Web application security scanner",
+          "category": "Web Application Analysis",
+          "usage": "zaproxy",
+          "options": [
+            "Automated security testing",
+            "Find vulnerabilities in web applications"
+          ],
+          "docs": "https://www.zaproxy.org/docs/"
+        }
+      ]
+    }
+  ]
+}

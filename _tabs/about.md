@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 6
 ---
 
 >  
@@ -10,3 +10,7 @@ This page is intended for educational and ethical purposes only. All information
 
 Check out my Youtube channel : [Zerotmax Youtube Channel](https://www.youtube.com/@0xtmax/featured)
 
+<link rel="stylesheet" href="/assets/css/youtube-latest.css">
+<script src="/assets/js/youtube-latest.js" defer></script>
+
+<div id="latest-youtube-video"></div>
