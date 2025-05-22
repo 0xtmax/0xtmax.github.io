@@ -37,7 +37,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         <span>13 modules</span>
                     </div>
                 </div>
-                <button class="view-course-btn">Start</button>
+                <div class="ad-course-btns">
+                    <button class="view-course-btn">View</button>
+                </div>
+                
             `;
 
             courseCard.querySelector('.view-course-btn').addEventListener('click', showFullCourseView);
