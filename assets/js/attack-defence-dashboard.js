@@ -98,4 +98,35 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
     renderCourseCard();
+
+    // Add Operating System Enumeration card
+    function renderOSEnumCard() {
+        const formattedDate = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}-${String(new Date().getDate()).padStart(2, '0')}`;
+        const osCard = document.createElement('div');
+        osCard.classList.add('ad-course-card');
+        osCard.innerHTML = `
+            <h2>Operating System Enumeration</h2>
+            <div class="card-date">${formattedDate}</div>
+            <p>Learn how to enumerate and analyze Windows and Linux operating systems for security weaknesses, user accounts, services, and misconfigurations as part of your attack and defence workflow.</p>
+            <div class="card-tags">
+                <span class="card-tag">Windows</span>
+                <span class="card-tag">Linux</span>
+                <span class="card-tag">Enumeration</span>
+            </div>
+            <div class="card-metrics">
+                <div class="metric">
+                    <i class="fas fa-desktop"></i>
+                    <span>OS Enumeration</span>
+                </div>
+            </div>
+            <div class="ad-course-btns">
+                <button class="view-course-btn">View</button>
+            </div>
+        `;
+        osCard.querySelector('.view-course-btn').addEventListener('click', function() {
+            alert('Operating System Enumeration content coming soon!');
+        });
+        toolsContainer.appendChild(osCard);
+    }
+    renderOSEnumCard();
 });
