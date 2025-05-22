@@ -271,7 +271,5 @@ Invoke-SelfSearch -Mailbox user@domain.local -SearchQuery 'password'
   });
 </script>
 
-## ✅ You're Ready!
 
-Use this cheat sheet to practice on your lab and in CTFs. Let me know if you want video walkthroughs or scripts for automation.
 
