@@ -74,7 +74,7 @@ Create a following A records in your DNS provider pointing to your Evilginx VPS 
 | `outlook.login` | A | VPS IP |
 | `www.login` | A | VPS IP |
 
-As you can see, in this example we are using the subdomain [login.hackpie.com](http://login.hackpie.com/). This is because [hackpie.com](http://hackpie.com/) is already hosting a website, so I created a subdomain (login) and pointed it to my VPS server for the Evilginx setup. However, in real-world attacks, if you're using a dedicated domain for phishing, you can use the root domain directly and there’s no need to create a subdomain.
+As you can see, in this example we are using the subdomain login.hackpie.com . This is because hackpie.com is already hosting a website, so I created a subdomain (login) and pointed it to my VPS server for the Evilginx setup. However, in real-world attacks, if you're using a dedicated domain for phishing, you can use the root domain directly and there’s no need to create a subdomain.
 
 Once DNS is set, verify with nslookup and ensure its resolving. If everything good, you will see your VPS IP. 
 
