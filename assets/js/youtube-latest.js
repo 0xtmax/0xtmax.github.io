@@ -4,7 +4,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', function() {
-  const videoId = 'oOuXilIQcYY'; // Your specific video ID
+  const videoId = 'SPAeMlPFeVk'; // Your specific video ID
   const youtubeContainer = document.getElementById('latest-youtube-video');
   
   if (!youtubeContainer) return;
