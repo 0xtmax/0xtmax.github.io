@@ -42,7 +42,7 @@ We’ll configure:
 
 **Step 1: LAN Rules (192.168.10.0/24)**
 
-- From the Windows 10 Client → Browse to the firewall with the IP address of our LAN [http://192.168.10.1](http://192.168.10.1) and Click Advanced and click Continue.
+- From the Windows 10 Client → Browse to the firewall with the IP address of our LAN [https://192.168.10.1](https://192.168.10.1) and Click Advanced and click Continue.
 
 ![image.png](/assets/hacklab2/image%201.png)
 
