@@ -1,8 +1,8 @@
 ---
 title: "Building a Realistic Enterprise Level SOC LAB for Blue & Red Teamers - Part 1"
 date: 2025-04-24 00:00:00 +0800
-categories: [Red Team, Phishing]
-tags: [RedTeam,Evilginx,Phishing,Microsoft Entra ID,Social Engineering]
+categories: [Red Team, Blue Team]
+tags: [RedTeam,Soc Labs,Blueteam,Firwall]
 categories: [Projects,SOC]
 tags: [RedTeam,Windows Server Hacking,Openvpn,SOC,Blue Team]
 ---
