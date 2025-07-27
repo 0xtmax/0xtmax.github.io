@@ -5,6 +5,11 @@ categories: [Cloud, AWS]
 tags: [Cloud,AWS,Devops,Security]
 ---
 
+<div style="text-align:center;">
+  <iframe width="800" height="500" src="https://www.youtube.com/embed/mCiMLAImRII?si=gvrslVi2nC1rjmbP" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  </iframe>
+</div>
 
 Deploying applications manually can be time-consuming and prone to errors. As developers, we need a system that ensures our applications are built, tested, and deployed quickly and reliably—that's where CI/CD comes in.
 
